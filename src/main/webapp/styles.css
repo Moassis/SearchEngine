@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-style: italic;
+    border-image-outset: 15;
+    table-layout: auto;
+}
+.searchEngine{
+    background-color: rgb(81, 51, 21);
+}
+
+button{
+    background-color: rgb(40, 18, 3);
+    color:rgb(248, 244, 244);
+    font-size: larger;
+    padding: 8px;
+    margin: 4px, 2px;
+    cursor: pointer;
+    border-radius: 14px;
+}
+
+input[type = text]{
+    border: 2px solid;
+    border-radius: 14px;
+    width: 30%;
+    padding: 8px 16px;
+}
+
+.resultTable{
+    display: inline-block;
+    margin: auto;
+}
